@@ -1,9 +1,9 @@
 {
-    "private": true,
+    "private": false,
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "Rec2You"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
