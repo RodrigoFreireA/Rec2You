@@ -16,7 +16,7 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-z
+
     <!-- Adicione o link para o arquivo JS app.js -->
     <script src="{{ asset('js/app.js') }}"></script>
 </head>
