@@ -1,18 +1,25 @@
-/* hero.css */
-.bg-image {
+/* public/css/styles.css */
+.hero-container {
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
     background-size: cover;
-    background-position: center;
+    height: 500px;
+    position: relative;
 }
 
-.hero-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-.p-5 .text-center .bg-image{
+.hero-container .text-white {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero-container .text-white h1,
+.hero-container .text-white h4 {
+    margin-bottom: 3px;
+}
+
+.hero-container .btn-outline-light.btn-lg {
+    margin-top: 10px;
 }

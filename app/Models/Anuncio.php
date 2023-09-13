@@ -8,8 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Anuncio extends Model
 {
     protected $fillable = [
-        'name', 'description', 
-    ];
+		'name', 'description', 'service_type', 'device_used', 'images'
+	];
+	
 
 	/**
 	 * @return mixed
