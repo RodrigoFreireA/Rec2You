@@ -11,3 +11,32 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+/* public/css/styles.css */
+.hero-container {
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.hero-container .text-white {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero-container .text-white h1,
+.hero-container .text-white h4 {
+    margin-bottom: 3px;
+}
+
+.hero-container .btn-outline-light.btn-lg {
+    margin-top: 10px;
+}
+.text-white{
+    text-align: center;
+}
